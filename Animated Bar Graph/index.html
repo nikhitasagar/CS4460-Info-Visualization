@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Class Statistics</title>
+	<!-- Always include D3 first. -->
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<!-- Include main.js, which is where all our code lives -->
+	<script src="main.js"></script>
+	<!-- Include any styles we want to add to our page -->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1>GPA Represent</h1>
+	<!-- Our graph will be added inside this divider element -->
+	<div id="graph"></div>
+	<div id="department">
+		<b>Department: </b>
+	</div>
+	<div style="margin:30;">
+		<div style="display: table-cell; width: 120;">
+			<label for="GPA_filter"><b>GPA: </b></label>
+			<input type="number" min="0" max="4" step="0.5" value="0" id="GPA_filter">
+		</div>
+	</div>
+</body>
+</html>
